@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mrpg_dev:block/test"
+    }
+  }
+}

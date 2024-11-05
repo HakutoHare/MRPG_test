@@ -1,11 +1,30 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Test",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mrpg_dev/models/block/test.json",
+          "src/main/java/net/mcreator/mrpgdev/block/TestBlock.java",
+          "src/main/resources/data/mrpg_dev/loot_tables/blocks/test.json",
+          "src/main/resources/assets/mrpg_dev/blockstates/test.json",
+          "src/main/resources/assets/mrpg_dev/models/item/test.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.mrpg_dev.test": "Test"
+    }
   },
   "foldersRoot": {
     "name": "~",
